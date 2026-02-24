@@ -1,22 +1,14 @@
 # SendEmails (Python)
 
-Python SMTP email sender designed with secure defaults and interactive terminal input.
+This is a Python SMTP email sender. I used Copilot as a tool for advancing faster the proyect.
 
 ## Overview
 
-This project sends plain-text emails through an SMTP server (Gmail by default) using Python's standard library only.
-
-### Key Features
-
-- Interactive runtime prompts via `input()`.
-- Secure transport using `STARTTLS`.
-- Validation for required fields.
-- User-friendly error messages for common SMTP/network issues.
-- No external dependencies.
+This project sends emails through an SMTP server using Python's standard library only.
 
 ## Requirements
 
-- Python 3.10+ (tested with Python 3.13)
+- Python 3.10+ 
 - Gmail account with an App Password
 
 ## Run the Script
@@ -50,11 +42,7 @@ Press Enter to accept default values when available.
 - `SMTP port must be a valid number.`
   - Enter a numeric port (for example, `587`).
 
-## GitHub Best Practices
-
-- Never commit secrets, app passwords, or sensitive personal data.
-- Keep `.env` out of version control (`.gitignore` is already configured).
-- Rotate credentials immediately if leaked.
 
 Author: José C. Bedoya. Built with Copilot AI
+
 
