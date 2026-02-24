@@ -51,10 +51,10 @@ def send_email() -> None:
             smtp.login(sender_email, smtp_password)
             smtp.send_message(message)
     except socket.gaierror:
-        print("Could not resolve SMTP host. Check SMTP host value (example: smtp.gmail.com).")
+        print("Type SMTP host value: smtp.gmail.com")
         return
     except smtplib.SMTPAuthenticationError:
-        print("SMTP authentication failed. Check email/app password.")
+        print("Check your email or app password.")
         return
 
     print("Email sent successfully.")
@@ -62,3 +62,4 @@ def send_email() -> None:
 
 if __name__ == "__main__":
     send_email()
+
