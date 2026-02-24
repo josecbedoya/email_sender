@@ -56,5 +56,5 @@ Press Enter to accept default values when available.
 - Keep `.env` out of version control (`.gitignore` is already configured).
 - Rotate credentials immediately if leaked.
 
-Author: José C. Bedoya
-Built with Copilot AI
+Author: José C. Bedoya. Built with Copilot AI
+
